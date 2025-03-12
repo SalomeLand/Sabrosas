@@ -1,17 +1,17 @@
 
 function  goinicio(){
    
-    window.location.href ='/html/index.html';
+    window.location.href ='/index.html';
 }
 function  goregistro(){
    
-    window.location.href = '/html/Sesion.html';
+    window.location.href = '/Sesion.html';
 }
 function  govista(){
-    window.location.href = '/html/vista.html';
+    window.location.href = '/vista.html';
 }
 function  gocategoria(){
-    window.location.href = '/html/categoria.html';
+    window.location.href = '/categoria.html';
 }
 /*Array de productos */
 const dic_productos=[
@@ -221,7 +221,7 @@ function galleryproduct(pagina_activa){
        gall += `
            
             <div  class="product-card" onclick="click_imagen(${i+1})">
-                <img id="img${i+1}" src="/media/${lista_mezclada[i+x].name}.jpg" name="${lista_mezclada[i+x].name}" value=""src="" alt="imagen1">
+                <img id="img${i+1}" src="media/${lista_mezclada[i+x].name}.jpg" name="${lista_mezclada[i+x].name}" value=""src="" alt="imagen1">
                 <div class="product-info">
                     <h3 id="h${i+1}">${lista_mezclada[i+x].name}</h3>
                     <p id="p${i+1}">${lista_mezclada[i+x].precio}</p>
@@ -237,7 +237,7 @@ function galleryproduct(pagina_activa){
             {
            gall += `
                 <div  class="product-card" onclick="click_imagen(${i+1})">
-                    <img id="img${i+1}" src="/media/${lista_mezclada[i+x].name}.jpg" name="${lista_mezclada[i+x].name}" value=""src="" alt="imagen1">
+                    <img id="img${i+1}" src="media/${lista_mezclada[i+x].name}.jpg" name="${lista_mezclada[i+x].name}" value=""src="" alt="imagen1">
                     <div class="product-info">
                         <h3 id="h${i+1}">${lista_mezclada[i+x].name}</h3>
                         <p id="p${i+1}">${lista_mezclada[i+x].precio}</p>
